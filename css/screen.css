@@ -17,16 +17,188 @@ html,body{
   padding: 0;
 }
 
+body{
+
+  background-color: #F7F7F7;
+}
+
+
 h1{
-  font-size: 30px;
-  font-family: raustila;
+  font-size: 25px;
+  font-family:'Overpass', sans-serif;
+}
+
+h2{
+  font-size: 20px;
+  font-family:'Overpass', sans-serif;
+}
+
+body p{
+
+  font-family: 'Lato', serif;
+  line-height:1.4em ;
 }
 
 #subtitle{
-  font-family: 'Merriweather', serif;
+  font-family: 'Lato', serif;
 }
 
 @media only screen and (min-width:320px){
+
+  .text-section1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin:95% 0 25% 0;
+    
+  }
+
+  h1{
+    text-align: center;
+    margin: 20px 0 50px 0;
+  }
+
+  .text-section1 p{
+
+    display: block;
+    width: 80%;
+    height: auto;
+    
+    text-align: left;
+    margin: 0 auto;
+    
+  }
+
+/* -----------text-section2----------- */
+
+  .text-section2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin:20% 0 25% 0;
+
+  }
+
+  .text-section2 h2{
+    text-align: center;
+    margin: 20px 0 20px 0;
+
+  }
+
+  .text-section2 p{
+
+    display: block;
+    width: 80%;
+    height: auto;
+    
+    text-align: left;
+    margin: 0 auto;    
+  }
+
+/* -----------formsection----------- */
+
+  #formsection{
+
+    display: block;
+    width: 90%;
+    height: auto;
+    
+    background-color:white;
+    margin: 0 auto 20% auto;
+
+    background-color: white;
+    border: 2px  solid white;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    box-shadow:0 15px 20px #5e5d5b;
+  }
+  
+
+  #formsection h1{
+
+    display: block;
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+
+   }
+
+   #vraag {
+
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+
+   }
+
+   #score p{
+    display: hidden;
+    height: 0;
+    width: 0;
+   }  
+   
+   #nummer p{
+    display: hidden; 
+    height: 0;
+    width: 0;
+   }
+
+  .buttons{
+
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    margin:10px;
+   
+  }
+
+  .btn{
+
+    display: block;
+    width: 86%;
+    height: auto;
+
+    margin: auto;
+  }
+
+  #ja{
+    text-align: center;
+    padding: 5px 40px 5px 35px;
+    color: white;
+
+    background-color: #D3EF9F;
+    border: 2px  solid #D3EF9F;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+  
+  }
+
+  #nee{
+    text-align: center;
+    padding: 5px 45px 5px 35px;
+    color: white;
+
+    background-color: #FF8080;
+    border: 2px  solid #FF8080;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+  }
+
+  #startknop{
+
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 10px 45px 10px 40px;
+    color: white;
+
+    background-color: #FFE08C;
+    border: 2px  solid #FFE08C;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+  }
 
 }
 

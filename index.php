@@ -37,6 +37,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Overpass&display=swap" rel="stylesheet">
 
 
     <meta name="theme-color" content="#272727">
@@ -74,15 +76,17 @@
             Met deze test kan je te weten komen of jij de capaciteiten hebt om IMD'er te worden!</p>
         </section>
         <section class="text-section text-section2">
-            <h2>Waarom doen we dit?</h2>
-            <p>lorum ipsum</p>
+            <h2>Doe de test</h2>
+            <p>Vul de volgende test in en kom zo te weten of je een echte IMD'er bent.</p>
         </section>
         <section id="formsection">
             <div id="center">
                 <h1 id="titel"></h1>
                 <p id="vraag"></p>
+                <div class="btn">
                 <button class="buttons" onclick="ja()" id="ja">ja</button>
                 <button class="buttons" onclick="nee()" id="nee">nee</button>
+                </div>
                 <button onclick="start()" id="startknop">Start de test!</button>
                 <p id="score"></p>
                 <br>
