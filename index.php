@@ -71,21 +71,25 @@
 
     <body>
         <section class="text-section text-section1">
+        <div class="sect1">    
             <h1>WE NEED YOU!</h1>
             <p id="subtitle">IMD is elk jaar opnieuw opzoek naar nieuwe studenten die een carrière willen beginnen in webdesign of webdevelopment. </br>
             Met deze test kan je te weten komen of jij de capaciteiten hebt om IMD'er te worden!</p>
+        </div>
         </section>
+        
         <section class="text-section text-section2">
+        <div class="sect2">
             <h2>Doe de test</h2>
             <p>Vul de volgende test in en kom zo te weten of je een echte IMD'er bent.</p>
-        </section>
-        <section id="formsection">
+        </div>
+            
             <div id="center">
                 <h1 id="titel"></h1>
                 <p id="vraag"></p>
                 <div class="btn">
-                <button class="buttons" onclick="ja()" id="ja">ja</button>
-                <button class="buttons" onclick="nee()" id="nee">nee</button>
+                    <button class="buttons" onclick="ja()" id="ja">ja</button>
+                    <button class="buttons" onclick="nee()" id="nee">nee</button>
                 </div>
                 <button onclick="start()" id="startknop">Start de test!</button>
                 <p id="score"></p>
@@ -93,29 +97,32 @@
                 <p id="nummer"></p>
             </div>
         </section>
-    
+        
         
     
-        <section>
-            <div>
+        <section class="containerform">
+            <div class="sect3">
+            <h2>Over IMD</h2>
+            <p>Wil je alvast nu al meer weten over Interactive Multimedia Design? Bekijk dan hier de programmagids van de opleiding! Je ontdekt er meteen wat IMD jou kan bieden, welke vakken je kan volgen en de beroepsmogelijkheden nadat je afstudeert.</p>
+            <a id="programma" href="https://www.thomasmore.be/opleidingen/professionele-bachelor/informatiemanagement-en-multimedia/interactive-multimedia-design" >Programmagids</a>
+            </div>
+            <div class="form">
+                <h2>Schrijf je in</h2>
                 <form action="" method="POST">
-                    <label>Naam</label>
-                    <input type="text" name="naam" id="naam">
+                    <input type="text" name="naam" id="naam" placeholder="Naam">
                     <br>
-                    <label>Voornaam</label>
-                    <input type="text" name="voornaam" id="voornaam">
+                    <input type="text" name="voornaam" id="voornaam" placeholder="Voornaam">
                     <br>
-                    <label>Email</label>
-                    <input type="text" name="email" id="email">
+                    <input type="text" name="email" id="email" placeholder="Email">
                     <br>
                     <input type="submit" value="inzenden">
                 </form>
             </div>
         </section>
 
-        <section class="about">
+        <!-- <section class="about">
             <p>IMD staat voor Interactive Multimedia & Design en wij specialiseren ons in websites.</p>
-        </section>
+        </section> -->
 
         <script>
             var score = 0;
