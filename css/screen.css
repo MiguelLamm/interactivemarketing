@@ -54,7 +54,7 @@ body p{
 }
 
 
-@media only screen and (min-width:320px){
+@media only screen and (min-width:0px){
 
   .text-section1{
     display: block;
