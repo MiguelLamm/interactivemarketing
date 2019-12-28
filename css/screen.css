@@ -26,11 +26,13 @@ body{
 h1{
   font-size: 25px;
   font-family:'Overpass', sans-serif;
+  font-weight: bold;
 }
 
 h2{
-  font-size: 20px;
+  font-size: 23px;
   font-family:'Overpass', sans-serif;
+  font-weight: bold;
 }
 
 body p{
@@ -42,6 +44,15 @@ body p{
 #subtitle{
   font-family: 'Lato', serif;
 }
+
+.fem {
+  font-size: 45px;
+  font-family: "Forte", Regular;
+  color: #EF7C81;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
 
 @media only screen and (min-width:320px){
 
@@ -63,10 +74,7 @@ body p{
     display: block;
     width: 100%;
     height: 60%;
-    margin:80% 0 0% 0;
-
-   
-    
+    margin:25% 0 0% 0; 
   }
 
   h1{
@@ -114,7 +122,7 @@ body p{
     display: block;
     width: 100%;
     height: auto;
-    margin:20% 0 20% 0;
+    margin: -30% 0 20% 0;
 
       /* background-color: red; */
    
@@ -153,7 +161,7 @@ body p{
     border: 2px  solid white;
     border-radius:20px;
     -webkit-border-radius:20px;
-    box-shadow:0 15px 20px #5e5d5b;
+    box-shadow:0 7.5px 10px #5e5d5b;
   }
   
 
@@ -256,7 +264,7 @@ body p{
   display: block;
   position: absolute;      
   width: 100%;
-  height: 110%;
+  height: 75%;
   margin:0% 0 0% 0;
   top: 200%;
   /* background-color: blue; */
@@ -271,7 +279,7 @@ body p{
   display: block;
   width: 100%;
   height: auto;
-  margin:5% 0 5% 0;
+  margin: -50% 0 5% 0;
 
     /* background-color: red; */
  
@@ -281,10 +289,10 @@ body p{
 .containerform h2{
 
   display: block;
-  width: 100px;
+  width: 100%;
   height: 20px;
   margin: 0 auto;
-
+  text-align: center;;
  }
 
  .sect3 p{
@@ -299,7 +307,7 @@ body p{
   display: block;
   width: 15em;
   height: auto;
-  background-color: #C6F1D6;
+  background-color: rgb(193, 241, 211);
   margin: 2em auto 5em auto;
 
   text-decoration: none;
@@ -308,11 +316,11 @@ body p{
   text-align: center;
   padding: 0.8em 4em 0.8em 3em;
 
-  background-color: #C6F1D6;
-  border: 2px  solid #C6F1D6;
+  background-color: rgb(193, 241, 211);
+  border: 2px  solid rgb(193, 241, 211);
   border-radius:30px;
   -webkit-border-radius:30px;
-  box-shadow:0 15px 20px #5e5d5b;
+  box-shadow:0 7.5px 10px #5e5d5b;
  }
 
  .form{
@@ -328,7 +336,7 @@ body p{
   border: 2px  solid white;
   border-radius:20px;
   -webkit-border-radius:20px;
-  box-shadow:0 15px 20px #5e5d5b;
+  box-shadow:0 7.5px 10px #5e5d5b;
 
  }
 
@@ -400,7 +408,7 @@ input[type=submit]{
     display: block;
     width: 100%;
     height: 60%;
-    margin:85% 0 0% 0;
+    margin:25% 0 0% 0;
 
    
     
@@ -409,8 +417,6 @@ input[type=submit]{
   h1{
     text-align: center;
     margin: 20px 0 50px 0;
-    font-size: 30px;
-    font-weight: bold;
   }
 
   .text-section1 p{
@@ -455,7 +461,7 @@ input[type=submit]{
     display: block;
     width: 100%;
     height: auto;
-    margin:10% 0 10% 0;
+    margin:15% 0 10% 0;
 
       /* background-color: red; */
    
@@ -466,14 +472,12 @@ input[type=submit]{
     text-align: center;
     margin: 20px 0 20px 0;
     font-size: 25px;
-    font-weight: bold;
-
   }
 
   .text-section2 p{
 
     display: block;
-    width: 50%;
+    width: 60%;
     height: auto;
     
     text-align: center;
@@ -497,7 +501,7 @@ input[type=submit]{
     border: 2px  solid white;
     border-radius:20px;
     -webkit-border-radius:20px;
-    box-shadow:0 15px 20px #5e5d5b;
+    box-shadow:0 7.5px 10px #5e5d5b;
   }
   
 
@@ -620,7 +624,7 @@ input[type=submit]{
   display: block;
   width: 80%;
   height: auto;
-  margin:5% auto 5% auto;
+  margin: 20% auto 5% auto;
 
     /* background-color: red; */
  
@@ -635,7 +639,6 @@ input[type=submit]{
   text-align: center;
 
   font-size: 25px;
-  font-weight: bold;
 
  }
 
@@ -668,7 +671,7 @@ input[type=submit]{
   border: 2px  solid #C6F1D6;
   border-radius:30px;
   -webkit-border-radius:30px;
-  box-shadow:0 15px 20px #5e5d5b;
+  box-shadow:0 7.5px 10px #5e5d5b;
  }
 
  .form{
@@ -684,7 +687,7 @@ input[type=submit]{
   border: 2px  solid white;
   border-radius:20px;
   -webkit-border-radius:20px;
-  box-shadow:0 15px 20px #5e5d5b;
+  box-shadow:0 7.5px 10px #5e5d5b;
 
  }
 
@@ -745,7 +748,7 @@ input[type=submit]{
     display: block;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 90%;
     top: -0.1%;
 
     /* background-color: sandybrown; */
@@ -758,8 +761,8 @@ input[type=submit]{
   .sect1{
     display: block;
     width: 100%;
-    height: 60%;
-    margin:35% 0 0% 0;
+    height: 50%;
+    margin: 12.5% 0 0% 0;
 
    
     
@@ -775,7 +778,7 @@ input[type=submit]{
   .text-section1 p{
 
     display: block;
-    width: 70%;
+    width: 60%;
     height: auto;
     
     text-align: center;
@@ -800,7 +803,7 @@ input[type=submit]{
     position: absolute;      
     width: 100%;
     height: 80%;
-    margin:0% 0 0% 0;
+    margin: 0% 0 0% 0;
     top: 100%;
     /* background-color: blue; */
 
@@ -814,7 +817,7 @@ input[type=submit]{
     display: block;
     width: 100%;
     height: auto;
-    margin:5% 0 5% 0;
+    margin: -7.5% 0 5% 0;
 
       /* background-color: red; */
    
@@ -857,7 +860,7 @@ input[type=submit]{
     border: 2px  solid white;
     border-radius:20px;
     -webkit-border-radius:20px;
-    box-shadow:0 15px 20px #5e5d5b;
+    box-shadow:0 7.5px 10px #5e5d5b;
   }
   
 
@@ -966,9 +969,10 @@ input[type=submit]{
   display: block;
   position: absolute;      
   width: 100%;
-  height: 110%;
+  height: 125%;
   margin:0% 0 0% 0;
   top: 200%;
+
   /* background-color: blue; */
 
   background-image: url(../images/1x/obj1-3.png), url(../images/1x/obj2-3.png), url(../images/1x/obj3-3.png);
@@ -979,13 +983,10 @@ input[type=submit]{
 
 .sect3{
   display: block;
-  width: 80%;
+  width: 75%;
   height: auto;
-  margin:5% auto 5% auto;
-
+  margin: -5% auto 5% auto;
     /* background-color: red; */
- 
-  
 }
 
 .containerform h2{
@@ -1014,7 +1015,7 @@ input[type=submit]{
   display: block;
   width: 15em;
   height: auto;
-  background-color: #C6F1D6;
+  background-color: rgb(193, 241, 211);
   margin: 2em auto 5em auto;
 
   text-decoration: none;
@@ -1025,11 +1026,11 @@ input[type=submit]{
   text-align: center;
   padding: 0.8em 4em 0.8em 3em;
 
-  background-color: #C6F1D6;
-  border: 2px  solid #C6F1D6;
+  background-color: rgb(193, 241, 211);
+  border: 2px  solid  rgb(193, 241, 211);
   border-radius:30px;
   -webkit-border-radius:30px;
-  box-shadow:0 15px 20px #5e5d5b;
+  box-shadow:0 7.5px 10px #5e5d5b;
  }
 
  .form{
@@ -1046,20 +1047,18 @@ input[type=submit]{
   border: 2px  solid white;
   border-radius:20px;
   -webkit-border-radius:20px;
-  box-shadow:0 15px 20px #5e5d5b;
+  box-shadow:0 7.5px 10px #5e5d5b;
 
  }
 
  .form h2{
-
   display: block;
   padding: 40px 0;
  }
 
  form{
-
   display: block;
-  width: 90%;
+  width: 85%;
   margin: auto;
   padding: 20px auto 10px auto;
  }
@@ -1091,5 +1090,13 @@ input[type=submit]{
     font-size: 20px;
     
 }
+<<<<<<< HEAD
+=======
+.fem {
+  font-size: 57.5px;
+  margin-left: 60px;
+  margin-top: 35px;
+}
+>>>>>>> parent of c2d7676... Revert "Aanpassing Css"
 }
 
