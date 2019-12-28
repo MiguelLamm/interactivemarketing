@@ -98,8 +98,6 @@
             </div>
         </section>
         
-        
-    
         <section class="containerform">
             <div class="sect3">
             <h2>Over IMD</h2>
