@@ -33,6 +33,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/screen.css">
+
     <title>IMD voor vrouwen | Kom het hier te weten!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
@@ -70,26 +71,28 @@
     </head>
 
     <body>
+    <p class="fem">Femina</p>    
         <section class="text-section text-section1">
-        <div class="sect1">    
+        <div class="sect1">
             <h1>WE NEED YOU!</h1>
-            <p id="subtitle">IMD is elk jaar opnieuw opzoek naar nieuwe studenten die een carrière willen beginnen in webdesign of webdevelopment. </br>
-            Met deze test kan je te weten komen of jij de capaciteiten hebt om IMD'er te worden!</p>
+            <p id="subtitle">Interactive Marketing Design, een bachelor-studierichting van Thomas More in Mechelen, is elk jaar opnieuw opzoek naar nieuwe studenten die een carrière willen beginnen in webdesign of development. We willen af van het stereotype dat enkel jongens in de IT-sector terechtkomen. IMD is de perfecte middenweg tussen puur coderen en artistieke kunst. </br>
+            </br>
+            Daarom hebben wij, vier derdejaars studenten, Femina opgericht. Een platform dat vrouwelijke studenten een inkijk geeft om naar IMD te komen. Hieronder kan je een test invullen om te zien of dit iets voor jou is! 
         </div>
         </section>
         
         <section class="text-section text-section2">
         <div class="sect2">
-            <h2>Doe de test</h2>
-            <p>Vul de volgende test in en kom zo te weten of je een echte IMD'er bent.</p>
+            <h2>Doe de test!</h2>
+            <p>Vul onderstaande test in om te weten te komen of jij de capaciteiten hebt om IMD'er te worden!</p>
         </div>
             
             <div id="center">
                 <h1 id="titel"></h1>
                 <p id="vraag"></p>
                 <div class="btn">
-                    <button class="buttons" onclick="ja()" id="ja">ja</button>
-                    <button class="buttons" onclick="nee()" id="nee">nee</button>
+                    <button class="buttons" onclick="ja()" id="ja">Ja</button>
+                    <button class="buttons" onclick="nee()" id="nee">Nee</button>
                 </div>
                 <button onclick="start()" id="startknop">Start de test!</button>
                 <p id="score"></p>
@@ -105,7 +108,7 @@
             <a id="programma" href="https://www.thomasmore.be/opleidingen/professionele-bachelor/informatiemanagement-en-multimedia/interactive-multimedia-design" >Programmagids</a>
             </div>
             <div class="form">
-                <h2>Schrijf je in</h2>
+                <h2>Schrijf je in voor meer!</h2>
                 <form action="" method="POST">
                     <input type="text" name="naam" id="naam" placeholder="Naam">
                     <br>
@@ -113,7 +116,7 @@
                     <br>
                     <input type="text" name="email" id="email" placeholder="Email">
                     <br>
-                    <input type="submit" value="inzenden">
+                    <input type="submit" value="Versturen">
                 </form>
             </div>
         </section>
