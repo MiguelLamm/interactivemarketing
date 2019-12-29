@@ -98,6 +98,8 @@
     <meta property="og:site_name" content="IMD tester" />
     <meta property="fb:admins" content="Facebook numeric ID" />
 
+    <link rel="icon" type="image/png" sizes="16x16" href="resized/favicon-16x16.png">
+
     </head>
 
     <body>
