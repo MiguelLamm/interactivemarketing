@@ -58,8 +58,7 @@ body p{
   margin-top: 20px;
 }
 
-
-@media only screen and (min-width:320px){
+ @media only screen and (min-width: 320px){ 
 
   .text-section1{
     display: block;
@@ -79,7 +78,7 @@ body p{
     display: block;
     width: 100%;
     height: 60%;
-    margin:25% 0 0% 0; 
+    margin: 30% 0 0% 0; 
   }
 
   h1{
@@ -113,7 +112,7 @@ body p{
     position: absolute;      
     width: 100%;
     height: 100%;
-    margin:0% 0 0% 0;
+    margin: 0% 0 0% 0;
     top: 100%;
     /* background-color: blue; */
 
@@ -127,7 +126,7 @@ body p{
     display: block;
     width: 100%;
     height: auto;
-    margin: -30% 0 20% 0;
+    margin: -20% 0 20% 0;
 
       /* background-color: red; */
    
@@ -147,7 +146,7 @@ body p{
     height: auto;
     
     text-align: left;
-    margin: 0 auto;    
+    margin: auto auto;    
   }
 
 /* -----------formsection----------- */
@@ -269,7 +268,7 @@ body p{
   display: block;
   position: absolute;      
   width: 100%;
-  height: 75%;
+  height: 90%;
   margin:0% 0 0% 0;
   top: 200%;
   /* background-color: blue; */
@@ -284,11 +283,10 @@ body p{
   display: block;
   width: 100%;
   height: auto;
-  margin: -50% 0 5% 0;
+  margin: -35% 0 5% 0;
 
     /* background-color: red; */
  
-  
 }
 
 .containerform h2{
@@ -413,7 +411,7 @@ input[type=submit]{
     display: block;
     width: 100%;
     height: 60%;
-    margin:25% 0 0% 0;
+    margin: 15% 0 0% 0;
 
    
     
@@ -466,7 +464,7 @@ input[type=submit]{
     display: block;
     width: 100%;
     height: auto;
-    margin:15% 0 10% 0;
+    margin: -10% 0 10% 0;
 
       /* background-color: red; */
    
@@ -614,7 +612,7 @@ input[type=submit]{
   display: block;
   position: absolute;      
   width: 100%;
-  height: 80%;
+  height: 150%;
   margin:0% 0 0% 0;
   top: 180%;
   /* background-color: blue; */
@@ -629,7 +627,7 @@ input[type=submit]{
   display: block;
   width: 80%;
   height: auto;
-  margin: 20% auto 5% auto;
+  margin: 5% auto 5% auto;
 
     /* background-color: red; */
  
