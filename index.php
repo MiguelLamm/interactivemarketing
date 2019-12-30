@@ -93,7 +93,7 @@
     <meta property="og:title" content="Ben jij een webdesigner" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="https://www.mupload.nl/img/qfyabt750sq.jpg" />
     <meta property="og:description" content="Ben jij creatief en goed met je computer zoals een webdesigner? TEST HET HIER!" />
     <meta property="og:site_name" content="IMD tester" />
     <meta property="fb:admins" content="Facebook numeric ID" />
