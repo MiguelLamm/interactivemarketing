@@ -77,24 +77,45 @@
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
 
+    <!-- Fullstory Tracking Code for www.Femina.weareimd.be -->
+    <script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
+    window['_fs_org'] = 'QVYY0';
+    window['_fs_namespace'] = 'FS';
+    (function(m,n,e,t,l,o,g,y){
+        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+        g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
+        o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script;
+        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+        g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
+        g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+        g.log = function(a,b) { g("log", [a,b]) };
+        g.consent=function(a){g("consent",!arguments.length||a)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(){};
+    })(window,document,window['_fs_namespace'],'script','user');
+    </script>
+
     <!-- Place this data between the <head> tags of your website -->
     <meta name="description" content="Ben jij creatief en goed met je computer zoals een webdesigner? TEST HET HIER!" />
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@publisher_handle">
-    <meta name="twitter:title" content="Ben jij een webdesigner?">
-    <meta name="twitter:description" content="Ben jij creatief en goed met je computer zoals een webdesigner? TEST HET HIER!">
+    <meta name="twitter:title" content="Femina | Vrouwen in de IT-sector? Absoluut!">
+    <meta name="twitter:description" content="Heb jij het in je om webdesigner of developer te worden? TEST HET HIER!">
     <meta name="twitter:creator" content="@author_handle">
     <!-- Twitter Summary card images must be at least 120x120px -->
     <meta name="twitter:image" content="">
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="Ben jij een webdesigner" />
+    <meta property="og:title" content="Femina | Vrouwen in de IT-sector? Absoluut!" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="https://www.mupload.nl/img/qfyabt750sq.jpg" />
-    <meta property="og:description" content="Ben jij creatief en goed met je computer zoals een webdesigner? TEST HET HIER!" />
+    <meta property="og:description" content="Heb jij het in je om webdesigner of developer te worden? TEST HET HIER!" />
     <meta property="og:site_name" content="IMD tester" />
     <meta property="fb:admins" content="Facebook numeric ID" />
 
