@@ -62,7 +62,7 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-154995670-1');
+  gtag('config', 'UA-154995670-1', { 'optimize_id': 'GTM-NZGWHH7'});
     </script>
 
     <!-- Hotjar Tracking Code for www.Femina.weareimd.be -->
