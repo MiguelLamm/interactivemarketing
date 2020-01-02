@@ -46,6 +46,9 @@
     <link rel=”canonical” href= "">
     <link rel="shortcut icon" href="">
     <!--Social Media posting-->
+
+	<!-- A/B Freshmarketer -->
+<script src='//cdn.freshmarketer.com/521714/1508834.js'></script>
     
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
